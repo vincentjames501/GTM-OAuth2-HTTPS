@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'GTMHTTPFetcher'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.license      = {
     :type => 'Apache License, Version 2.0',
     :text => <<-LICENSE
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                "is asynchronous and uses operating-system settings on iOS and Mac OS X."
   s.homepage = 'https://code.google.com/p/gtm-http-fetcher'
   s.author   = { 'The Google Data APIs team' => 'https://code.google.com/p/google-api-objectivec-client' }
-  s.source   = { :svn => 'https://gtm-http-fetcher.googlecode.com/svn/trunk', :revision => 'r119' }
+  s.source   = { :svn => 'https://gtm-http-fetcher.googlecode.com/svn/trunk', :revision => 'r134' }
   s.requires_arc = false
   s.dependency    'SBJson'
   s.ios.deployment_target = '3.0'
